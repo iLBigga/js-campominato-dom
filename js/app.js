@@ -80,6 +80,8 @@ function onClick(){
     } else {
         // Aggiungo classe bomb a This(square)
         this.classList.add('bomb');
+        // Rimuovo classe hide a banner
+        banner.classList.remove('hide');
         // Inserisco esito partita in textGameOver
         textGameOver.innerHTML = 'Hai Perso!';
         // Inserisco punteggio totalizzato in textPoints
