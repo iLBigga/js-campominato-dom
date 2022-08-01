@@ -65,6 +65,7 @@ function getSquare() {
     square.addEventListener('click', onClick);
     return square;
 }
+// Creo funzione per creare eventi al click
 function onClick(){
     // Aggiungo classe clicked a This(square)
     this.classList.add('clicked')
