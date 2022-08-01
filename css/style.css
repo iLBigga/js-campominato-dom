@@ -33,6 +33,15 @@ main {
 
 }
 
+.button {
+    background-color: beige;
+    padding: 5px;
+}
+
+.banner.button {
+    margin-top: 5px;
+}
+
 .table {
     max-width: 800px;
     background-color: aquamarine;
@@ -59,6 +68,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .safe {
@@ -67,6 +78,26 @@ main {
 
 .bomb {
     background-color: tomato;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    background-color: blueviolet;
+    text-align: center;
+    width: 200px;
+    padding: 1rem;
+    aspect-ratio: 2/1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.hide{
+    display: none;
 }
 
 .main-footer {
