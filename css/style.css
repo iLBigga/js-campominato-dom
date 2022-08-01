@@ -61,8 +61,12 @@ main {
     align-items: center;
 }
 
-.clicked {
-    background-color: brown;
+.safe {
+    background-color: yellowgreen;
+}
+
+.bomb {
+    background-color: tomato;
 }
 
 .main-footer {
